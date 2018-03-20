@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426DCB1B206168EB003B2C13 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426DCB1A206168EB003B2C13 /* Analytics.framework */; };
 		EE249F891F0BC5B200AC5C78 /* RNASegmentIO.m in Sources */ = {isa = PBXBuildFile; fileRef = EE249F881F0BC5B200AC5C78 /* RNASegmentIO.m */; };
 		EE249F8A1F0BC5B200AC5C78 /* RNASegmentIO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE249F871F0BC5B200AC5C78 /* RNASegmentIO.h */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		426DCB1A206168EB003B2C13 /* Analytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Analytics.framework; sourceTree = "<group>"; };
 		6CCE98E61F16689800ADBBC0 /* RNAIntegrations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAIntegrations.h; sourceTree = "<group>"; };
 		E4F7D57B1FB494080005B9C2 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		EE249F841F0BC5B200AC5C78 /* libRNAnalyticsSegmentIO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAnalyticsSegmentIO.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426DCB1B206168EB003B2C13 /* Analytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,7 @@
 		EE249F861F0BC5B200AC5C78 /* RNAnalyticsSegmentIO */ = {
 			isa = PBXGroup;
 			children = (
+				426DCB1A206168EB003B2C13 /* Analytics.framework */,
 				EE249F871F0BC5B200AC5C78 /* RNASegmentIO.h */,
 				EE249F881F0BC5B200AC5C78 /* RNASegmentIO.m */,
 				6CCE98E61F16689800ADBBC0 /* RNAIntegrations.h */,
@@ -240,6 +244,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4F7D57B1FB494080005B9C2 /* Config.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNAnalyticsSegmentIO",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -253,6 +261,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4F7D57B1FB494080005B9C2 /* Config.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RNAnalyticsSegmentIO",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
