@@ -143,8 +143,8 @@
 			baseConfigurationReference = E4F7D57B1FB494080005B9C2 /* Config.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 					"$(inherited)",
+					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -359,8 +359,8 @@
 			baseConfigurationReference = E4F7D57B1FB494080005B9C2 /* Config.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 					"$(inherited)",
+					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -377,8 +377,8 @@
 			baseConfigurationReference = E4F7D57B1FB494080005B9C2 /* Config.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 					"$(inherited)",
+					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -395,8 +395,8 @@
 			baseConfigurationReference = E4F7D57B1FB494080005B9C2 /* Config.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 					"$(inherited)",
+					"$(PROJECT_DIR)/RNAnalyticsSegmentIO/**",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
